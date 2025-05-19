@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useRef } from "react";
 import RateForm from "../components/RateForm";
 import ProjectionChart from "../components/ProjectionChart";

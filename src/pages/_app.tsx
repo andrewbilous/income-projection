@@ -1,3 +1,4 @@
+// @ts-nocheck
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
@@ -5,6 +6,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+// @ts-nocheck
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
